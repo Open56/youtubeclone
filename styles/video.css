@@ -1,5 +1,6 @@
 .thumbnail {
   width: 100%;
+  cursor: pointer;
 }
 
 .video-title {
@@ -13,6 +14,7 @@
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
+  cursor: pointer;
 }
 
 .profile-picture {
@@ -69,4 +71,10 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
+}
+
+.button {
+  border: none;
+  padding: 0px 0px 0px 0px;
+  background-color: white;
 }
